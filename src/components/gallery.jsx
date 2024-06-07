@@ -30,17 +30,17 @@ export const Gallery = props => {
   };
 
   return (
-    <div id="portfolio" className="text-center">
+    <div id="gallery" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>Galeri</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
         </div>
         <div className="row">
-          <div className="portfolio-items">
+          <div className="gallery-items">
             {data.map(({ title, thumb }, index) => (
               <div key={index} onClick={() => openImageViewer(index)} className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item cursor">
+                <div className="gallery-item cursor">
                   <div className="hover-bg">
                     <div className="hover-text">
                       <h4>{title}</h4>
