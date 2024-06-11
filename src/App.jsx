@@ -8,6 +8,10 @@ import { Footer } from './components/footer'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
 import { Contact } from './components/contact'
+import { MissionVision } from './components/missionvision'
+import { Stores } from './components/stores'
+import { WhatsAppButton } from './components/whatsappbutton'
+
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -24,11 +28,14 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      <Stores />
       <About data={landingPageData.About} />
+      <MissionVision data={landingPageData.MissionVision} />
       <Products data={landingPageData.Products} />
       <Gallery />
       <Contact data={landingPageData.Contact} />
       <Footer />
+      <WhatsAppButton />
     </div>
   )
 }

@@ -35,6 +35,7 @@ export const Contact = (props) => {
   return (
     <div>
       <div id="contact">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#333" fill-opacity="1" d="M0,96L48,96C96,96,192,96,288,128C384,160,480,224,576,240C672,256,768,224,864,186.7C960,149,1056,107,1152,90.7C1248,75,1344,85,1392,90.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
         <div className="container">
           <div className="col-md-8">
             <div className="row">
@@ -46,8 +47,8 @@ export const Contact = (props) => {
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
-                <div className="row">
-                  <div className="col-md-6">
+                <div>
+                  <div>
                     <div className="form-group">
                       <input
                         type="text"
@@ -61,7 +62,7 @@ export const Contact = (props) => {
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
-                  <div className="col-md-6">
+                  <div>
                     <div className="form-group">
                       <input
                         type="email"
@@ -75,23 +76,23 @@ export const Contact = (props) => {
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
+                  <div className="form-group">
+                    <textarea
+                      name="message"
+                      id="message"
+                      className="form-control"
+                      rows="4"
+                      placeholder="Mesajınız"
+                      required
+                      onChange={handleChange}
+                    ></textarea>
+                    <p className="help-block text-danger"></p>
+                  </div>
+                  <div id="success"></div>
+                  <button type="submit" className="btn btn-custom btn-lg">
+                    Gönder
+                  </button>
                 </div>
-                <div className="form-group">
-                  <textarea
-                    name="message"
-                    id="message"
-                    className="form-control"
-                    rows="4"
-                    placeholder="Mesajınız"
-                    required
-                    onChange={handleChange}
-                  ></textarea>
-                  <p className="help-block text-danger"></p>
-                </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Gönder
-                </button>
               </form>
             </div>
           </div>
@@ -128,17 +129,17 @@ export const Contact = (props) => {
                 <ul>
                   <li>
                     <a href={props.data ? props.data.facebook : '/'}>
-                      <i className="fa fa-facebook"></i>
+                      <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
-                      <i className="fa fa-twitter"></i>
+                    <a href={props.data ? props.data.instagram : '/'}>
+                      <i className="fab fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
-                      <i className="fa fa-youtube"></i>
+                    <a href={props.data ? props.data.linkedin : '/'}>
+                      <i className="fab fa-linkedin-in"></i>
                     </a>
                   </li>
                 </ul>
