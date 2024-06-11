@@ -6,47 +6,21 @@
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
-        ]
+        "paragraph": "1990 yılında Konya'da faaliyete başlayan MEVLANA DEKORASYON ORMAN ÜRÜNLERİ İTHALAT İHRACAT SANAYİ VE TİCARET LİMİTED ŞİRKETİ, bugüne kadar edindiği deneyim ve bilgi birikimi ile sektöründe öncü bir firma olmuştur. İstanbul'daki şubemiz ve Konya'daki merkezimiz ile geniş bir müşteri kitlesine hizmet vermekteyiz.",
+        "paragraph2": "Firmamız, nalbur ve hırdavat ürünlerinden dekorasyon malzemelerine, PVC kenar bandından sayısız ürün seçeneklerine kadar geniş bir ürün yelpazesi sunmaktadır. Hettich ve Roma markalarının Konya distribütörü olarak, yüksek kalite standartlarını müşterilerimize ulaştırmaktan gurur duyuyoruz.",
+        "paragraph3": "MEVLANA DEKORASYON olarak amacımız, sektöre yenilik ve değer katmak, müşterilerimize güvenilir ve kaliteli hizmet sunmaktır. Deneyimli ekibimiz ve müşteri odaklı yaklaşımımız ile her zaman en iyi çözümleri sunmak için çalışıyoruz.",
+        "paragraph4": "Konya merkezli firmamız, İstanbul şubesi ile Türkiye'nin farklı bölgelerine hizmet götürmeye devam etmektedir. Sektördeki yenilikleri yakından takip ederek, en güncel ürün ve hizmetleri sunma konusunda kararlıyız. Müşteri memnuniyetini her zaman ön planda tutarak, sizlere en iyi deneyimi yaşatmak için buradayız."
     },
     "Contact": {
         "address": "HACIYUSUF MESCİT MAHALLESİ EHLİBEYT SOKAK NO:34 KARATAY-KONYA",
         "phone": "+90 332 342 43 55",
         "email": "mevlana@mevlanadekorasyon.com",
-        "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "facebook": "https://www.facebook.com/profile.php?id=100072423739799&mibextid=ZbWKwL",
+        "instagram": "https://www.instagram.com/mevlanadekorasyon?igsh=c2Q0dDAxams1bTk2",
+        "linkedin": "https://www.linkedin.com/in/mevlana-dekorasyon-5089ba213?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
-    "Products": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        }
-    ]
+    "MissionVision": {
+        "mission": "MEVLANA DEKORASYON ORMAN ÜRÜNLERİ İTHALAT İHRACAT SANAYİ VE TİCARET LİMİTED ŞİRKETİ olarak misyonumuz, müşterilerimize en yüksek kalitede dekorasyon ve hırdavat malzemeleri sunarak yaşam alanlarını daha fonksiyonel ve estetik hale getirmektir. Yenilikçi çözümler ve geniş ürün yelpazemiz ile sektörde güvenilir bir partner olarak, müşteri memnuniyetini en üst düzeyde tutmayı hedefliyoruz.",
+        "vision": "Sektörün lider firmalarından biri olarak vizyonumuz, Türkiye'nin her bölgesinde ve uluslararası pazarlarda kaliteli hizmet anlayışımızla tanınmak ve tercih edilen bir marka olmaktır. Sürekli yenilik peşinde koşarak, en güncel teknolojiler ve trendler doğrultusunda ürün ve hizmetlerimizi geliştirip, sürdürülebilir bir büyüme sağlamayı amaçlıyoruz."
+    }
 }

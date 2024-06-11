@@ -1,51 +1,48 @@
-export const Navigation = (props) => {
-  return (
-    <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
-        <div className="navbar-header">
-          <button
-            type="button"
-            className="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
-          >
-            {' '}
-            <span className="sr-only">Toggle navigation</span>{' '}
-            <span className="icon-bar"></span>{' '}
-            <span className="icon-bar"></span>{' '}
-            <span className="icon-bar"></span>{' '}
-          </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Mevlana Dekorasyon
-          </a>{' '}
-        </div>
+import React, { useState, useEffect } from 'react';
 
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
-          <ul className="nav navbar-nav navbar-right">
-            <li>
-              <a href="#about" className="page-scroll">
-                Hakkımızda
-              </a>
-            </li>
-            <li>
-              <a href="#products" className="page-scroll">
-                Ürünler
-              </a>
-            </li>
-            <li>
-              <a href="#gallery" className="page-scroll">
-                Galeri
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="page-scroll">
-                İletişim
-              </a>
-            </li>
-          </ul>
+export const Navigation = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const handleScroll = () => {
+    if (window.scrollY > 50) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  return (
+    <nav id="menu" className={scrolled ? 'scrolled' : ''}>
+      <div className="container">
+        <div className="logo">
+          <a href="#">
+            <img src="img/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <div className="nav-wrapper">
+          <div className={`nav-links ${isOpen ? 'open' : ''}`}>
+            <a href="#about" onClick={() => setIsOpen(false)}>Hakkımızda</a>
+            <a href="#products" onClick={() => setIsOpen(false)}>Ürünler</a>
+            <a href="#gallery" onClick={() => setIsOpen(false)}>Galeri</a>
+            <a href="#contact" onClick={() => setIsOpen(false)}>İletişim</a>
+          </div>
+        </div>
+        <div className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
+          <div className="line"></div>
+          <div className="line"></div>
+          <div className="line"></div>
         </div>
       </div>
     </nav>

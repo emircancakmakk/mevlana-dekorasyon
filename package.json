@@ -3,6 +3,7 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -11,6 +12,7 @@
     "particles-bg": "^2.5.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "^5.0.1",
     "react-simple-image-viewer": "^0.0.8",
     "react-slick": "^0.30.2",
