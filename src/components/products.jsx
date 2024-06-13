@@ -6,18 +6,18 @@ export const Products = (props) => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);
 
   const data = [
-    { thumb: 'img/products/1.jpg', title: 'Lorem Ipsum1' },
-    { thumb: 'img/products/2.jpg', title: 'Lorem Ipsum2' },
-    { thumb: 'img/products/3.jpg', title: 'Lorem Ipsum3' },
-    { thumb: 'img/products/4.jpg', title: 'Lorem Ipsum4' },
-    { thumb: 'img/products/5.jpg', title: 'Lorem Ipsum5' },
-    { thumb: 'img/products/6.jpg', title: 'Lorem Ipsum6' },
-    { thumb: 'img/products/7.jpg', title: 'Lorem Ipsum7' },
-    { thumb: 'img/products/8.jpg', title: 'Lorem Ipsum8' },
-    { thumb: 'img/products/10.jpg', title: 'Lorem Ipsum10' },
-    { thumb: 'img/products/11.jpg', title: 'Lorem Ipsum11' },
-    { thumb: 'img/products/13.jpg', title: 'Lorem Ipsum13' },
-    { thumb: 'img/products/15.jpg', title: 'Lorem Ipsum15' },
+    { thumb: 'img/products/1.jpg', title: 'Hettich' },
+    { thumb: 'img/products/2.jpg', title: 'Hettich' },
+    { thumb: 'img/products/3.jpg', title: 'Hettich' },
+    { thumb: 'img/products/4.jpg', title: 'Hettich' },
+    { thumb: 'img/products/5.jpg', title: 'Hettich' },
+    { thumb: 'img/products/6.jpg', title: 'Hettich' },
+    { thumb: 'img/products/7.jpg', title: 'Hettich' },
+    { thumb: 'img/products/8.jpg', title: 'Hettich' },
+    { thumb: 'img/products/10.jpg', title: 'Hettich' },
+    { thumb: 'img/products/11.jpg', title: 'Hettich' },
+    { thumb: 'img/products/13.jpg', title: 'Hettich' },
+    { thumb: 'img/products/15.jpg', title: 'Hettich' },
   ];
 
   const images = data.map((obj) => obj.thumb.replace('-small', '-large'));

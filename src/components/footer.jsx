@@ -5,7 +5,7 @@ export const Footer = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2024 - Mevlana Dekorasyon. Design by{' '}
+            &copy; 2024 - Mevlana Dekorasyon. Designed by{' '}
             <a href='https://www.linkedin.com/in/emircancakmak/'>
               Emircan Cakmak
             </a>
