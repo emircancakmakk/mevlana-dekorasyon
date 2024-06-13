@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export const WhatsAppButton = () => {
   const handleClick = () => {
-    window.open('https://wa.me/1234567890', '_blank'); // Replace with your WhatsApp number
+    window.open('https://wa.me/903323424355', '_blank'); // Replace with your WhatsApp number
   };
 
   return (

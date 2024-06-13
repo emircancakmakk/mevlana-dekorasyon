@@ -6,18 +6,18 @@ export const Gallery = (props) => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);
 
   const data = [
-    { thumb: "img/gallery/01.jpg", title: "Lorem Ipsum1" },
-    { thumb: "img/gallery/02.jpg", title: "Lorem Ipsum2" },
-    { thumb: "img/gallery/03.jpg", title: "Lorem Ipsum3" },
-    { thumb: "img/gallery/04.jpg", title: "Lorem Ipsum4" },
-    { thumb: "img/gallery/05.jpg", title: "Lorem Ipsum5" },
-    { thumb: "img/gallery/06.jpg", title: "Lorem Ipsum6" },
-    { thumb: "img/gallery/07.jpg", title: "Lorem Ipsum7" },
-    { thumb: "img/gallery/08.jpg", title: "Lorem Ipsum8" },
-    { thumb: "img/gallery/09.jpg", title: "Lorem Ipsum9" },
-    { thumb: "img/gallery/10.jpg", title: "Lorem Ipsum10" },
-    { thumb: "img/gallery/11.jpg", title: "Lorem Ipsum11" },
-    { thumb: "img/gallery/12.jpg", title: "Lorem Ipsum12" },
+    { thumb: "img/gallery/01.jpg", title: "Fotoğraf 1" },
+    { thumb: "img/gallery/02.jpg", title: "Fotoğraf 2" },
+    { thumb: "img/gallery/03.jpg", title: "Fotoğraf 3" },
+    { thumb: "img/gallery/04.jpg", title: "Fotoğraf 4" },
+    { thumb: "img/gallery/05.jpg", title: "Fotoğraf 5" },
+    { thumb: "img/gallery/06.jpg", title: "Fotoğraf 6" },
+    { thumb: "img/gallery/07.jpg", title: "Fotoğraf 7" },
+    { thumb: "img/gallery/08.jpg", title: "Fotoğraf 8" },
+    { thumb: "img/gallery/09.jpg", title: "Fotoğraf 9" },
+    { thumb: "img/gallery/10.jpg", title: "Fotoğraf 10" },
+    { thumb: "img/gallery/11.jpg", title: "Fotoğraf 11" },
+    { thumb: "img/gallery/12.jpg", title: "Fotoğraf 12" },
   ];
 
   const images = data.map((obj) => obj.thumb.replace("-small", "-large"));
